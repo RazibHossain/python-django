@@ -1,0 +1,30 @@
+1. python -m venv myworld
+2. myworld\Scripts\activate.bat
+3. python -m pip install Django
+
+
+
+django version checke
+django-admin --version
+
+create project
+
+django-admin startproject my_tennis_club
+
+run the project
+python manage.py runserver
+
+check the project 
+
+http://127.0.0.1:8000/
+
+ctrl+c for close the server
+member name ekta app/module open kora
+python manage.py startapp members
+
+configure views
+configure urls
+run the project
+python manage.py runserver
+
+http://127.0.0.1:8000/members/
