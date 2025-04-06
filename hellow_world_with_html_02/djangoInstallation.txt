@@ -33,3 +33,19 @@ add html template
 1. create folder to members templates/myfirst.html
 2. configure view.py
 3. configure setting.py in root directory my_tennis_club
+
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'members'  // added this apps
+]
+
+
+Run this command
+python manage.py migrate
+
+python manage.py runserver
